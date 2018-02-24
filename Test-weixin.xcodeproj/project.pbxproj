@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		859EA6190ADDE4D5AFC174B1 /* libPods-Test-weixin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C45EA4710B411D81736D456D /* libPods-Test-weixin.a */; };
+		9E859C45200DC8380013CADB /* WechatShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E859C44200DC8380013CADB /* WechatShareManager.m */; };
+		9EB5D886203E676B000AEE3C /* 3333.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB5D885203E676B000AEE3C /* 3333.jpg */; };
+		9EB5D888203E6900000AEE3C /* vvevneo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9EB5D887203E6900000AEE3C /* vvevneo.jpg */; };
+		9ECD0148200709E9003A0CFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECD0147200709E9003A0CFB /* AppDelegate.m */; };
+		9ECD014B200709E9003A0CFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECD014A200709E9003A0CFB /* ViewController.m */; };
+		9ECD014E200709E9003A0CFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD014C200709E9003A0CFB /* Main.storyboard */; };
+		9ECD0150200709E9003A0CFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD014F200709E9003A0CFB /* Assets.xcassets */; };
+		9ECD0153200709E9003A0CFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD0151200709E9003A0CFB /* LaunchScreen.storyboard */; };
+		9ECD0156200709E9003A0CFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECD0155200709E9003A0CFB /* main.m */; };
+		9ECD0160200709E9003A0CFB /* Test_weixinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ECD015F200709E9003A0CFB /* Test_weixinTests.m */; };
+		9ECD016B200727B7003A0CFB /* 854037.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD016A200727B6003A0CFB /* 854037.jpg */; };
+		9ECD016D20072C50003A0CFB /* 111.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD016C20072C50003A0CFB /* 111.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ECD015C200709E9003A0CFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ECD013B200709E9003A0CFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ECD0142200709E9003A0CFB;
+			remoteInfo = "Test-weixin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DFE41949055DCF9DA48F8F0 /* Pods-Test-weixin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-weixin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Test-weixin/Pods-Test-weixin.debug.xcconfig"; sourceTree = "<group>"; };
+		9E859C43200DC8380013CADB /* WechatShareManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WechatShareManager.h; sourceTree = "<group>"; };
+		9E859C44200DC8380013CADB /* WechatShareManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WechatShareManager.m; sourceTree = "<group>"; };
+		9EB5D885203E676B000AEE3C /* 3333.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3333.jpg; sourceTree = "<group>"; };
+		9EB5D887203E6900000AEE3C /* vvevneo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vvevneo.jpg; sourceTree = "<group>"; };
+		9ECD0143200709E9003A0CFB /* Test-weixin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test-weixin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECD0146200709E9003A0CFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9ECD0147200709E9003A0CFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9ECD0149200709E9003A0CFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9ECD014A200709E9003A0CFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9ECD014D200709E9003A0CFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ECD014F200709E9003A0CFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ECD0152200709E9003A0CFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9ECD0154200709E9003A0CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECD0155200709E9003A0CFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9ECD015B200709E9003A0CFB /* Test-weixinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-weixinTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECD015F200709E9003A0CFB /* Test_weixinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_weixinTests.m; sourceTree = "<group>"; };
+		9ECD0161200709E9003A0CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECD016A200727B6003A0CFB /* 854037.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 854037.jpg; sourceTree = "<group>"; };
+		9ECD016C20072C50003A0CFB /* 111.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 111.jpg; sourceTree = "<group>"; };
+		C45EA4710B411D81736D456D /* libPods-Test-weixin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test-weixin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4393DD2E779A1D735102E8F /* Pods-Test-weixin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test-weixin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Test-weixin/Pods-Test-weixin.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ECD0140200709E9003A0CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859EA6190ADDE4D5AFC174B1 /* libPods-Test-weixin.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECD0158200709E9003A0CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DD41D1B864C4A637589AB54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DFE41949055DCF9DA48F8F0 /* Pods-Test-weixin.debug.xcconfig */,
+				E4393DD2E779A1D735102E8F /* Pods-Test-weixin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E859C42200DC7480013CADB /* wechatShare */ = {
+			isa = PBXGroup;
+			children = (
+				9E859C43200DC8380013CADB /* WechatShareManager.h */,
+				9E859C44200DC8380013CADB /* WechatShareManager.m */,
+			);
+			path = wechatShare;
+			sourceTree = "<group>";
+		};
+		9ECD013A200709E9003A0CFB = {
+			isa = PBXGroup;
+			children = (
+				9ECD0145200709E9003A0CFB /* Test-weixin */,
+				9ECD015E200709E9003A0CFB /* Test-weixinTests */,
+				9ECD0144200709E9003A0CFB /* Products */,
+				8DD41D1B864C4A637589AB54 /* Pods */,
+				EC8975F1CB2897060E0E820D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9ECD0144200709E9003A0CFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ECD0143200709E9003A0CFB /* Test-weixin.app */,
+				9ECD015B200709E9003A0CFB /* Test-weixinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ECD0145200709E9003A0CFB /* Test-weixin */ = {
+			isa = PBXGroup;
+			children = (
+				9E859C42200DC7480013CADB /* wechatShare */,
+				9ECD016C20072C50003A0CFB /* 111.jpg */,
+				9EB5D887203E6900000AEE3C /* vvevneo.jpg */,
+				9EB5D885203E676B000AEE3C /* 3333.jpg */,
+				9ECD016A200727B6003A0CFB /* 854037.jpg */,
+				9ECD0146200709E9003A0CFB /* AppDelegate.h */,
+				9ECD0147200709E9003A0CFB /* AppDelegate.m */,
+				9ECD0149200709E9003A0CFB /* ViewController.h */,
+				9ECD014A200709E9003A0CFB /* ViewController.m */,
+				9ECD014C200709E9003A0CFB /* Main.storyboard */,
+				9ECD014F200709E9003A0CFB /* Assets.xcassets */,
+				9ECD0151200709E9003A0CFB /* LaunchScreen.storyboard */,
+				9ECD0154200709E9003A0CFB /* Info.plist */,
+				9ECD0155200709E9003A0CFB /* main.m */,
+			);
+			path = "Test-weixin";
+			sourceTree = "<group>";
+		};
+		9ECD015E200709E9003A0CFB /* Test-weixinTests */ = {
+			isa = PBXGroup;
+			children = (
+				9ECD015F200709E9003A0CFB /* Test_weixinTests.m */,
+				9ECD0161200709E9003A0CFB /* Info.plist */,
+			);
+			path = "Test-weixinTests";
+			sourceTree = "<group>";
+		};
+		EC8975F1CB2897060E0E820D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C45EA4710B411D81736D456D /* libPods-Test-weixin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ECD0142200709E9003A0CFB /* Test-weixin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECD0164200709E9003A0CFB /* Build configuration list for PBXNativeTarget "Test-weixin" */;
+			buildPhases = (
+				ED409652326123DDBE65D09D /* [CP] Check Pods Manifest.lock */,
+				9ECD013F200709E9003A0CFB /* Sources */,
+				9ECD0140200709E9003A0CFB /* Frameworks */,
+				9ECD0141200709E9003A0CFB /* Resources */,
+				6D639DBB2F633400E03087BC /* [CP] Embed Pods Frameworks */,
+				C84812E425F997015743F2F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test-weixin";
+			productName = "Test-weixin";
+			productReference = 9ECD0143200709E9003A0CFB /* Test-weixin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9ECD015A200709E9003A0CFB /* Test-weixinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECD0167200709E9003A0CFB /* Build configuration list for PBXNativeTarget "Test-weixinTests" */;
+			buildPhases = (
+				9ECD0157200709E9003A0CFB /* Sources */,
+				9ECD0158200709E9003A0CFB /* Frameworks */,
+				9ECD0159200709E9003A0CFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ECD015D200709E9003A0CFB /* PBXTargetDependency */,
+			);
+			name = "Test-weixinTests";
+			productName = "Test-weixinTests";
+			productReference = 9ECD015B200709E9003A0CFB /* Test-weixinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ECD013B200709E9003A0CFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					9ECD0142200709E9003A0CFB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+					9ECD015A200709E9003A0CFB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9ECD0142200709E9003A0CFB;
+					};
+				};
+			};
+			buildConfigurationList = 9ECD013E200709E9003A0CFB /* Build configuration list for PBXProject "Test-weixin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ECD013A200709E9003A0CFB;
+			productRefGroup = 9ECD0144200709E9003A0CFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ECD0142200709E9003A0CFB /* Test-weixin */,
+				9ECD015A200709E9003A0CFB /* Test-weixinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ECD0141200709E9003A0CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB5D888203E6900000AEE3C /* vvevneo.jpg in Resources */,
+				9ECD016B200727B7003A0CFB /* 854037.jpg in Resources */,
+				9ECD0153200709E9003A0CFB /* LaunchScreen.storyboard in Resources */,
+				9ECD0150200709E9003A0CFB /* Assets.xcassets in Resources */,
+				9ECD016D20072C50003A0CFB /* 111.jpg in Resources */,
+				9ECD014E200709E9003A0CFB /* Main.storyboard in Resources */,
+				9EB5D886203E676B000AEE3C /* 3333.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECD0159200709E9003A0CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D639DBB2F633400E03087BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test-weixin/Pods-Test-weixin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C84812E425F997015743F2F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Test-weixin/Pods-Test-weixin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED409652326123DDBE65D09D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ECD013F200709E9003A0CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECD014B200709E9003A0CFB /* ViewController.m in Sources */,
+				9E859C45200DC8380013CADB /* WechatShareManager.m in Sources */,
+				9ECD0156200709E9003A0CFB /* main.m in Sources */,
+				9ECD0148200709E9003A0CFB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECD0157200709E9003A0CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECD0160200709E9003A0CFB /* Test_weixinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ECD015D200709E9003A0CFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ECD0142200709E9003A0CFB /* Test-weixin */;
+			targetProxy = 9ECD015C200709E9003A0CFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9ECD014C200709E9003A0CFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ECD014D200709E9003A0CFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9ECD0151200709E9003A0CFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ECD0152200709E9003A0CFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ECD0162200709E9003A0CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9ECD0163200709E9003A0CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ECD0165200709E9003A0CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DFE41949055DCF9DA48F8F0 /* Pods-Test-weixin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2293673LMU;
+				INFOPLIST_FILE = "Test-weixin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trip8080.trip8080mobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3a14b068-1426-4f51-aede-e11e918ba651";
+				PROVISIONING_PROFILE_SPECIFIER = 20180116changtudev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9ECD0166200709E9003A0CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4393DD2E779A1D735102E8F /* Pods-Test-weixin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2293673LMU;
+				INFOPLIST_FILE = "Test-weixin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.trip8080.trip8080mobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cf041e73-aaac-4079-91c1-4692f6cb176f";
+				PROVISIONING_PROFILE_SPECIFIER = dev_ctw_2017.12.21;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9ECD0168200709E9003A0CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Test-weixinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.com.Test-weixinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test-weixin.app/Test-weixin";
+			};
+			name = Debug;
+		};
+		9ECD0169200709E9003A0CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Test-weixinTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.com.Test-weixinTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test-weixin.app/Test-weixin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ECD013E200709E9003A0CFB /* Build configuration list for PBXProject "Test-weixin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECD0162200709E9003A0CFB /* Debug */,
+				9ECD0163200709E9003A0CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECD0164200709E9003A0CFB /* Build configuration list for PBXNativeTarget "Test-weixin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECD0165200709E9003A0CFB /* Debug */,
+				9ECD0166200709E9003A0CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECD0167200709E9003A0CFB /* Build configuration list for PBXNativeTarget "Test-weixinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECD0168200709E9003A0CFB /* Debug */,
+				9ECD0169200709E9003A0CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9ECD013B200709E9003A0CFB /* Project object */;
+}

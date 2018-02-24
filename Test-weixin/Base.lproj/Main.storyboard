@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TWF-QU-xfM"/>
+                        <viewControllerLayoutGuide type="bottom" id="gSa-sZ-KJS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sdx-Dd-Ax8">
+                                <rect key="frame" x="141" y="298.5" width="92" height="30"/>
+                                <state key="normal" title="微信分享文字"/>
+                                <connections>
+                                    <action selector="wechatShare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v9w-aR-PSU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGU-pZ-Fho">
+                                <rect key="frame" x="141" y="338.5" width="92" height="30"/>
+                                <state key="normal" title="微信分享图片"/>
+                                <connections>
+                                    <action selector="wechatShareToTimeLine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1VA-IB-T6R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJ5-Di-dHB">
+                                <rect key="frame" x="141" y="378.5" width="92" height="30"/>
+                                <state key="normal" title="微信分享网页"/>
+                                <connections>
+                                    <action selector="shareWeb:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MeY-DL-3s3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vJ5-Di-dHB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="60" id="1Qc-rc-HkS"/>
+                            <constraint firstItem="sdx-Dd-Ax8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4jI-eu-THb"/>
+                            <constraint firstItem="AGU-pZ-Fho" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="alK-0w-fPv"/>
+                            <constraint firstItem="sdx-Dd-Ax8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-20" id="fKc-7v-8Ik"/>
+                            <constraint firstItem="AGU-pZ-Fho" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="20" id="ncB-3E-QmI"/>
+                            <constraint firstItem="vJ5-Di-dHB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oNa-jT-3P7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
